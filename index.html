@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/favicon (3).ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&family=Stint+Ultra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>satyaprakash-Portfolio</title>
+  </head>
+  <body >
+    
+    <main>
+      <div
+        class="loader pointer-events-none h-screen w-full fixed top-0 left-0 z-[700]"
+      >
+        <div
+          class="namaste text-center absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+        >
+        <h2 class="text-white text-[7.5vw] md:text-[3vw] leading-[1.3]">
+            ನಮಸ್ತೆ
+          </h2>
+          <h2 class="text-white text-[7.5vw] md:text-[3vw] leading-[1.3]">
+            नमस्ते
+          </h2>
+          <h3 class="text-white text-[5vw] md:text-[2vw] leading-[1]">
+            namaste
+          </h3>
+        </div>
+        <div
+          class="loadingtext opacity-0 text-center absolute z-[5] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" >
+          <h2
+            class="counter text-white text-[5.5vw] md:text-[2vw] leading-[1.2]"
+          >
+            0%
+          </h2>
+          <h3
+            class="text-white text-[6vw] md:text-[2.5vw] leading-[1.1] mt-[1.5vw] md:mt-[0.8vw]"
+          >
+            Strategised. Executed. Delivered.<span> By Satyaprakash.</span>
+          </h3>
+          <div class="underline h-[0.8vw] md:h-[0.2vw] w-[0%] bg-white"></div>
+        </div>
+        <div class="overlay h-full w-full absolute top-0 left-0 z-[2] flex">
+          <div class="colordiv h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordiv h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordiv h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordiv h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordiv h-full w-[20%] bg-[#242A23]"></div>
+        </div>
+      </div>
+      <div
+        class="projects-overlay hidden h-screen w-full fixed pointer-event-none top-0 left-0 z-[400]"
+      >
+        <div
+          class="infoverview flex md:flex-row flex-col px-[2vw] md:px-[1.5vw] py-[4vw] md:py-[2vw] h-full w-full absolute top-0 left-0 z-[2]"
+        >
+          <div class="left-part h-[48%] md:h-full w-full md:w-[44%]">
+            <div
+              class="buttondiv w-fit closeBtn border border-white cursor-pointer px-[3vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw]"
+            >
+              <div
+                class="links cursor-pointer h-[1rem] md:h-[1.3rem] overflow-hidden"
+              >
+                <h2 class="text-white text-[4vw] md:text-[1.3vw] leading-[1]">
+                  Return To home
+                </h2>
+                <h2 class="text-white text-[4vw] md:text-[1.3vw] leading-[1]">
+                  Return To home
+                </h2>
+              </div>
+            </div>
+            <div class="heading mt-[2.5vw] md:mt-[1.5vw]">
+              <h3
+                class="projecttitle text-[14vw] md:text-[7.6vw] leading-[1] text-white"
+              >
+                Astrarise
+              </h3>
+              <div class="subheading flex items-center gap-[3vw] md:gap-[2vw]">
+                <div class="year">
+                  <h2
+                    class="projectyear text-white text-[4vw] leading-[1.1] md:text-[2vw]"
+                  >
+                    2025
+                  </h2>
+                </div>
+                <div class="shortdescription">
+                  <h4
+                    class="projectshorttag text-white text-[3vw] leading-[1] md:text-[1.3vw]"
+                  >
+                    A galaxy you can feel, not just see.
+                  </h4>
+                </div>
+              </div>
+              <div class="livelink mt-[3vw] md:mt-[1vw]">
+                <a target="_blank" href="">
+                  <div
+                    class="buttondiv w-fit border border-white cursor-pointer px-[3vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] bg-[#242A23]"
+                  >
+                    <div class="links cursor-pointer h-[1rem] overflow-hidden">
+                      <h2
+                        class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                      >
+                        live link
+                      </h2>
+                      <h2
+                        class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                      >
+                        live link
+                      </h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="projectflip mt-[2.7vw] md:mt-[1.5vw] h-[55%] w-full">
+              <div class="project-img overflow-hidden h-full w-full"></div>
+            </div>
+          </div>
+          <div
+            class="right-part h-[52%] md:h-full flex items-end w-full md:w-[56%]"
+          >
+            <div class="right-part-wrapper px-[2vw]">
+              <div class="description">
+                <h2 class="text-white text-[5.5vw] md:text-[2.5vw]">
+                  description
+                </h2>
+                <h4
+                  class="text-[2.5vw] md:text-[1.2vw] mt-[1.3vw] text-white leading-[1.2]"
+                >
+                  AstraRise was my first step into the world of creative web
+                  experiments, and also my first recognized work on Awwwards. I
+                  wanted to build something that felt alive, something that
+                  breathes when you interact with it. That's how AstraRise was
+                  born — a digital galaxy that reacts, moves, and shifts with
+                  every touch. The site lets you explore space through motion —
+                  twist the colors, adjust the density of stars, and shape your
+                  own universe in real time. It's built using Three.js for 3D
+                  visualization, GSAP for animation, and Tailwind CSS for a
+                  clean, fluid design. AstraRise isn't just a visual experiment;
+                  it's a personal milestone — the project that taught me how
+                  imagination can become recognition.
+                </h4>
+              </div>
+              <div
+                class="techstackandhighlights mt-[4vw] md:mt-[2vw] h-[25vh] md:h-[20vh] w-full flex md:flex-row flex-col"
+              >
+                <div
+                  class="techstack flex flex-row md:flex-col justify-between h-[50%] md:h-full w-full md:w-[35%]"
+                >
+                  <h2 class="text-white text-[4.5vw] md:text-[1.8vw]">
+                    tech Stack
+                  </h2>
+                  <div class="tech flex mt-[1.5vw] flex-col gap-[0.2vw]">
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[0.8vw] leading-[1.1]"
+                    >
+                      HTML
+                    </h4>
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[0.8vw] leading-[1.1]"
+                    >
+                      Tailwind CSS
+                    </h4>
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[0.8vw] leading-[1.1]"
+                    >
+                      GSAP
+                    </h4>
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[0.8vw] leading-[1.1]"
+                    >
+                      Three.js
+                    </h4>
+                  </div>
+                </div>
+                <div
+                  class="highlights flex flex-row md:flex-col justify-between h-[50%] md:h-full w-full w-[65%]"
+                >
+                  <h2 class="text-white text-[4.5vw] md:text-[1.8vw]">
+                    highlights
+                  </h2>
+                  <div
+                    class="tech flex mt-[1.5vw] flex-col gap-[1vw] md:gap-[0.4vw]"
+                  >
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[1vw] leading-[1.1]"
+                    >
+                      Interactive control panel for real-time galaxy
+                      customization
+                    </h4>
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[1vw] leading-[1.1]"
+                    >
+                      3D motion and space simulation built using Three.js
+                    </h4>
+                    <h4
+                      class="text-white text-[2.5vw] md:text-[1vw] leading-[1.1]"
+                    >
+                      Seamless animations powered by GSAP
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projectoverlay h-full w-full absolute top-0 left-0 flex">
+          <div class="colordivs h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordivs h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordivs h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordivs h-full w-[20%] bg-[#242A23]"></div>
+          <div class="colordivs h-full w-[20%] bg-[#242A23]"></div>
+        </div>
+      </div>
+      <nav
+        class="navbar px-[2vw] md:px-[1.5vw] h-[10vh] md:h-[16vh] w-full fixed z-[100] top-0 left-0 flex items-center justify-between"
+      >
+        <div class="name flex flex-col">
+          <div class="fullName">
+            <h3 class="text-[6vw] md:text-[2.3vw] leading-[1] text-white">
+              Satyaprakash Naik
+            </h3>
+          </div>
+          <div class="year">
+            <h2 class="text-[4.2vw] md:text-[1.6vw] text-[#C5E0F1] leading-[1]">
+              Portfolio
+            </h2>
+          </div>
+        </div>
+        <div class="mobilenav md:hidden">
+          <a
+            href="./SwarajSingh Resume - NIT Goa (3).pdf"
+            download="Swaraj_Singh_Resume.pdf"
+          >
+            <div
+              class="buttondiv border border-white cursor-pointer px-[4vw] py-[1.5vw] bg-[#242A23]"
+            >
+              <div class="links cursor-pointer h-[1rem] overflow-hidden">
+                <h2 class="text-white text-[4vw] leading-[1]">Resume</h2>
+                <h2 class="text-white text-[4vw] leading-[1]">Resume</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="navlinks hidden md:flex items-center w-[32%] justify-between"
+        >
+          <div
+            id="aboutlink"
+            class="links cursor-pointer h-[1.3rem] overflow-hidden"
+          >
+            <h3 class="text-white text-[1.3vw] leading-[1]">About</h3>
+            <h3 class="text-white text-[1.3vw] leading-[1]">About</h3>
+          </div>
+          <div
+            id="projectlink"
+            class="links cursor-pointer h-[1.3rem] overflow-hidden"
+          >
+            <h3 class="text-white text-[1.3vw] leading-[1]">Projects</h3>
+            <h3 class="text-white text-[1.3vw] leading-[1]">Projects</h3>
+          </div>
+          <div
+            id="recolink"
+            class="links cursor-pointer h-[1.3rem] overflow-hidden"
+          >
+            <h3 class="text-white text-[1.3vw] leading-[1]">Recognition</h3>
+            <h3 class="text-white text-[1.3vw] leading-[1]">Recognition</h3>
+          </div>
+          <div
+            id="contactlink"
+            class="links cursor-pointer h-[1.3rem] overflow-hidden"
+          >
+            <h3 class="text-white text-[1.3vw] leading-[1]">Contact</h3>
+            <h3 class="text-white text-[1.3vw] leading-[1]">Contact</h3>
+          </div>
+          <a href="files/myResume.pdf" download="Swaraj_Singh_Resume.pdf">
+            <div
+              class="buttondiv border border-white cursor-pointer px-[2vw] py-[0.65vw] bg-[#242A23]"
+            >
+              <div class="links cursor-pointer h-[1.3rem] overflow-hidden">
+                <h2 class="text-white text-[1.3vw] leading-[1]">Resume</h2>
+                <h2 class="text-white text-[1.3vw] leading-[1]">Resume</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </nav>
+      <div id="smooth-wrapper">
+        <div id="smooth-content">
+          <div id="app " class="bg-[#242A23]">
+            <div class="page1 h-[200vh] w-full relative">
+              <div class="image-div h-screen overflow-hidden w-full">
+                <img
+                  data-speed="0.91"
+                  class="scaleImage h-screen w-full scale-[1.16] object-cover"
+                  data-src="./Images/LandingPicture.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="upperdiv px-[2vw] md:px-[1.5vw] h-full w-full absolute top-0 left-0"
+              >
+                <div
+                  class="landing-div py-[1.5vw] flex items-end h-screen w-full"
+                >
+                  <div
+                    class="bottomtext w-full pb-[6vw] md:pb-[0vw] flex md:flex-row flex-col items-stretch justify-between"
+                  >
+                    <div
+                      class="maintext mb-[2.1vw] md:mb-[0vw] overflow-hidden"
+                    >
+                      <h1
+                        class="md:text-[6vw] text-[8vw] leading-[0.9] text-white"
+                      >
+                        Turning Ambitious <span>Brands</span> <br />
+                        Into Market Leaders.
+                      </h1>
+                    </div>
+                    <div
+                      class="subtext w-[90%] md:w-[32%] flex flex-col justify-between"
+                    >
+                      <div class="uppertext">
+                        <h4
+                          class="text-white text-[3.5vw] md:text-[1.17vw] leading-[1.05]"
+                        >
+                          Satyaprakash partners with businesses to deliver measurable growth through data-driven digital marketing. Performance marketing, SEO, paid ads, and conversion strategy — we do it all, and we show the numbers.
+                        </h4>
+                        <h3
+                          class="alagtext text-white text-[6vw] md:text-[2.5vw] leading-[1.1] mt-[2.5vw] md:mt-[0.8vw]"
+                        >
+                          grow brands, not just <span>budgets.</span>
+                        </h3>
+                      </div>
+                      <div
+                        class="buttons flex mt-[2.5vw] md:mt-[0vw] gap-[3vw] md:gap-[1.5vw]"
+                      >
+                        <a
+                          href="mailto:swarajsingh494@gmail.com?subject=Let's%20Create%20Something%20Together"
+                          class="buttondiv border border-white cursor-pointer px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw]"
+                        >
+                          <div
+                            class="links cursor-pointer h-[1rem] md:h-[1.3rem] overflow-hidden"
+                          >
+                            <h2
+                              class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                            >
+                              View Our Work
+                            </h2>
+                            <h2
+                              class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                            >
+                               View Our Work
+                            </h2>
+                          </div>
+                        </a>
+                        <a
+                          href="mailto:swarajsingh494@gmail.com?subject=We%27d%20Love%20to%20Hire%20You"
+                          class="buttondiv border border-white cursor-pointer px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] bg-[#242A23]"
+                        >
+                          <div
+                            class="links cursor-pointer h-[1rem] md:h-[1.3rem] overflow-hidden"
+                          >
+                            <h2
+                              class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                            >
+                               Book a Strategy Call
+                            </h2>
+                            <h2
+                              class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                            >
+                               Book a Strategy Call
+                            </h2>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="about"
+                  class="about py-[1.5vw] h-screen flex flex-col justify-end w-full"
+                >
+                  <div class="uppertext">
+                    <h3
+                      class="text-[10vw] md:text-[5.7vw] leading-[1.2] text-white"
+                    >
+                      About <span>US </span>
+                    </h3>
+                  </div>
+                  <div
+                    class="mainAbout h-[85vh] md:h-[70vh] w-full flex md:flex-row flex-col justify-between"
+                  >
+                    <div
+                      class="aboutimg overflow-hidden h-[40%] md:h-full w-full md:w-[65%]"
+                    >
+                      <img
+                        data-speed="0.8"
+                        class="h-full scale-[1.1] w-full object-cover"
+                        data-src="./Images/About.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="abouttext py-[4.2vw] md:py-[0vw] md:h-full h-[60%] w-full md:w-[32%] flex flex-col justify-between"
+                    >
+                      <div
+                        class="normalIntro flex flex-col gap-[2.5vw] md:gap-[1vw]"
+                      >
+                        <h4
+                          class="text-white leading-[1.25] text-[3.5vw] md:text-[1.23vw]"
+                        >
+                           Satyaprakash is a performance-first digital marketing agency built for brands that want real growth — not vanity metrics. We partner with businesses across D2C, B2B, and local markets to build campaigns that convert.
+                        </h4>
+                        <h4
+                          class="text-white leading-[1.25] text-[3.5vw] md:text-[1.23vw]"
+                        >
+                          Our team specialises in Performance Marketing, SEO, Social Media Growth, Paid Advertising, Lead Generation, and Conversion Rate Optimisation. Every strategy we build is rooted in data and obsessed with outcomes.
+                        </h4>
+                        <h4
+                          class="text-white leading-[1.25] text-[3.5vw] md:text-[1.23vw]"
+                        >
+                         We believe the best marketing doesn't feel like marketing. It tells the right story, to the right audience, at the right moment — and makes the numbers move.
+                        </h4>
+                        <h4
+                          class="text-white leading-[1.25] text-[3.5vw] md:text-[1.23vw]"
+                        >
+                           Let's build something together that your competitors will wish they thought of first.
+                        </h4>
+                      </div>
+                      <div class="funfact">
+                        <h2 class="text-white text-[7vw] md:text-[2vw]">
+                          Our Edge
+                        </h2>
+                        <h4
+                          class="text-white leading-[1.22] text-[3.5vw] md:text-[1.23vw]"
+                        >
+                          We don't just run campaigns — we build marketing systems. Every client gets a dedicated strategist, weekly performance reports, and a team that treats their budget like it's our own.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="projects"
+              class="page2 projects relative h-[70vh] md:h-screen w-full"
+            >
+              <div class="image-div h-screen overflow-hidden w-full">
+                <img
+                  data-speed="0.5"
+                  class="h-screen w-full scale-[1] object-cover"
+                  data-src="./Images/Projects.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="projectPreview absolute right-[1.5vw] top-[38%] translate-y-[-50%] h-[35%] md:h-[50%] w-full md:w-[44%] bg-red-300"
+              >
+                <div class="project-img h-full w-full">
+                  <img
+                    class="h-full scale-[1.2] w-full object-cover"
+                    data-src="./Images/Astrarise.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="projectPreview absolute right-[1.5vw] top-[38%] translate-y-[-50%] h-[35%] md:h-[50%] w-full md:w-[44%] bg-green-300"
+              >
+                <div class="project-img h-full w-full">
+                  <img
+                    class="h-full scale-[1.2] w-full object-cover"
+                    data-src="./Images/Zeigarnik Tumbnail.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="projectPreview absolute right-[1.5vw] top-[38%] translate-y-[-50%] h-[35%] md:h-[50%] w-full md:w-[44%] bg-blue-300"
+              >
+                <div class="project-img h-full w-full">
+                  <img
+                    class="h-full scale-[1.2] w-full object-cover"
+                    data-src="./Images/motionStep.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="projectPreview absolute right-[1.5vw] top-[38%] translate-y-[-50%] h-[35%] md:h-[50%] w-full md:w-[44%] bg-red-600"
+              >
+                <div class="project-img h-full w-full">
+                  <img
+                    class="h-full scale-[1.2] w-full object-cover"
+                    data-src="./Images/lastLine.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="upperdiv px-[2vw] md:px-[1.5vw] py-[1.5vw] flex flex-col justify-end h-full w-full absolute top-0 left-0"
+              >
+                <div class="heading">
+                  <h3
+                    class="text-white pb-[4vw] md:pb-[0vw] leading-[1.05] text-[10vw] md:text-[6vw]"
+                  >
+                    Selected <span>Work</span>
+                  </h3>
+                </div>
+                <div
+                  class="mainprojectsdiv h-[30vh] md:h-[20vh] flex md:flex-row flex-col items-start md:items-center justify-between w-full"
+                >
+                  <div class="lefttext h-[40%] w-full md:w-[32%]">
+                    <h4
+                      class="text-white text-[4vw] md:text-[1.23vw] leading-[1.25]"
+                    >
+                      Every project I create has a story behind it. It's not
+                      just about “making a website.” It's about exploring an
+                      idea, experimenting, failing a few times, and then finally
+                      watching it come alive on screen.
+                    </h4>
+                  </div>
+                  <div
+                    class="projects flex h-[60%] md:h-full w-full md:w-[55%] items-center justify-start md:justify-end gap-[2.5vw] md:gap-[0.5vw]"
+                  >
+                    <div
+                      class="projectBox cursor-pointer box1 h-[70%] w-[22%] md:w-[20%] bg-blue-400"
+                    >
+                      <div class="project-img h-full w-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          data-src="./Images/Astrarise.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="projectBox cursor-pointer box2 h-[70%] w-[22%] md:w-[20%] bg-blue-200"
+                    >
+                      <div class="project-img h-full w-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          data-src="./Images/Zeigarnik Tumbnail.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="projectBox cursor-pointer box3 h-[70%] w-[22%] md:w-[20%] bg-blue-400"
+                    >
+                      <div class="project-img h-full w-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          data-src="./Images/motionStep.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="projectBox cursor-pointer box4 h-[70%] w-[22%] md:w-[20%] bg-blue-200"
+                    >
+                      <div class="project-img h-full w-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          data-src="./Images/lastLine.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="cover" class="page3 relative h-[80vh] md:h-screen w-full">
+              <div class="image-div h-screen overflow-hidden w-full">
+                <img
+                  data-speed="0.6"
+                  class="h-screen w-full scale-[1] object-cover"
+                  data-src="./Images/awards.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="upperdiv px-[2vw] md:px-[1.5vw] py-[1.5vw] flex items-center justify-center h-full w-full absolute z-[20] top-0 left-0"
+              >
+                <div class="heading">
+                  <h3
+                    class="text-white text-center leading-[1.05] text-[10vw] md:text-[6vw]"
+                  >
+                      Proven <span>Results</span>
+                  </h3>
+                </div>
+              </div>
+              <div
+                data-speed="0.86"
+                class="absolute top-[17%] md:top-[23%] left-[10%] md:left-[15%] w-[30vw] md:w-[15vw] h-[44vw] md:h-[22vw] movable"
+              >
+                <div class="upperImage h-[90%] w-full">
+                  <img
+                    class="h-full w-full object-cover"
+                    data-src="./Images/youngJury.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="lowertext h-[10%] w-full flex items-center justify-center text-center"
+                >
+                  <h3 class="text-white text-[3.5vw] md:text-[1.7vw]">
+                   4.2x Average ROAS
+                  </h3>
+                </div>
+              </div>
+              <div
+                data-speed="0.89"
+                class="absolute z-[25] top-[60%] md:top-[40%] right-[10%] md:right-[15%] w-[24vw] md:w-[14vw] h-[36vw] md:h-[20vw] movable"
+              >
+                <div class="upperImage h-[90%] w-full">
+                  <img
+                    class="h-full w-full object-cover"
+                    data-src="./Images/honors.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="lowertext h-[10%] w-full flex items-center justify-center text-center"
+                >
+                  <h3 class="text-white text-[2.7vw] md:text-[1.6vw]">
+                    200+ Leads Per Month
+                  </h3>
+                </div>
+              </div>
+              <div
+                data-speed="0.95"
+                class="absolute top-[8%] right-[10%] md:right-[35%] w-[35vw] md:w-[18vw] h-[27vw] md:h-[14vw] movable"
+              >
+                <div class="upperImage bg-blue-600 h-[90%] w-full">
+                  <img
+                    class="h-full opacity-[0.93] w-full object-cover"
+                    data-src="./Images/IITGn.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="lowertext h-[10%] w-full flex items-center justify-center text-center"
+                >
+                  <h3 class="text-white text-[2.8vw] md:text-[1.4vw]">
+                    340% Organic Growth
+                  </h3>
+                </div>
+              </div>
+              <div
+                data-speed="0.93"
+                class="absolute top-[70%] md:top-[60%] left-[12%] md:left-[35%] w-[36vw] md:w-[17vw] h-[29vw] md:h-[13vw] movable"
+              >
+                <div class="upperImage bg-blue-600 h-[90%] w-full">
+                  <img
+                    class="h-full opacity-[0.93] w-full object-cover"
+                    data-src="./Images/goaPolice.png"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="lowertext h-[10%] w-full flex items-center justify-center text-center"
+                >
+                  <h3 class="text-white text-[2.7vw] md:text-[1.2vw]">
+                    74% Lower Cost Per Lead
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div
+              id="contact"
+              class="page4 relative h-[80vh] md:h-screen w-full"
+            >
+              <div class="image-div h-screen overflow-hidden w-full">
+                <img
+                  data-speed="0.99"
+                  class="h-screen w-full scale-[1] object-cover"
+                  data-src="./Images/footer.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="overview px-[2vw] md:px-[1.5vw] py-[1.5vw] h-[80vh] md:h-screen w-full absolute top-0 left-0"
+              >
+                <div
+                  class="contactupper h-[85%] md:h-[60%] w-full flex flex-col justify-between"
+                >
+                  <div
+                    class="getintouch h-[20%] md:h-[60%] w-full flex items-center"
+                  >
+                    <h3 class="text-[10vw] md:text-[6.5vw] text-white">
+                      Let's <span>Grow</span>
+                    </h3>
+                  </div>
+                  <div
+                    class="socials h-[80%] md:h-[40%] w-full flex md:flex-row flex-col items-start md:items-center justify-between"
+                  >
+                    <div
+                      class="first flex flex-col justify-between py-[2.5vw] md:py-[0vw] w-full md:w-[30%] h-[32%] md:h-full"
+                    >
+                      <h4
+                        class="text-white text-[3.8vw] md:text-[1.2vw] leading-[1.18]"
+                      >
+                        Ready to scale your brand? Whether you're a D2C startup, an established business, or a local brand with big ambitions — we'd love to build your next campaign.
+                      </h4>
+                      <a
+                        href="mailto:swarajsingh494@gmail.com?subject=Let's%20Create%20Something%20Together"
+                        class="buttondiv w-fit border border-white cursor-pointer px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw]"
+                      >
+                        <div
+                          class="links cursor-pointer h-[1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h2
+                            class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                          >
+                             Start a Campaign
+                          </h2>
+                          <h2
+                            class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                          >
+                            Start a Campaign
+                          </h2>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="second flex flex-col justify-between py-[2.5vw] md:py-[0vw] w-full md:w-[30%] h-[32%] md:h-full"
+                    >
+                      <h4
+                        class="text-white text-[3.8vw] md:text-[1.2vw] leading-[1.18]"
+                      >
+                       Looking for a long-term marketing partner who's accountable to real numbers? We offer monthly retainers built around your growth targets, not just deliverables.
+                      </h4>
+                      <a
+                        href="mailto:swarajsingh494@gmail.com?subject=We%27d%20Love%20to%20Hire%20You"
+                        class="buttondiv w-fit border border-white cursor-pointer px-[4vw] md:px-[2vw] py-[1.5vw] md:py-[0.65vw] bg-[#242A23]"
+                      >
+                        <div
+                          class="links cursor-pointer h-[1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h2
+                            class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                          >
+                            Get a Proposal
+                          </h2>
+                          <h2
+                            class="text-white text-[4vw] md:text-[1.3vw] leading-[1]"
+                          >
+                            Get a Proposal
+                          </h2>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      class="third flex flex-col justify-between py-[2.5vw] md:py-[0vw] w-full md:w-[30%] h-[32%] md:h-full"
+                    >
+                      <h4
+                        class="text-white text-[3.8vw] md:text-[1.2vw] leading-[1.18]"
+                      >
+                        Follow our work, see behind-the-scenes campaign strategy, and stay updated on what's working in digital marketing right now.
+                      </h4>
+                      <div
+                        class="socialslink pb-[1vw] flex items-center gap-[2vw]"
+                      >
+                        <a
+                          target="_blank"
+                          href="https://www.linkedin.com/in/swaraj-singh-47aa682a6/"
+                          class="links cursor-pointer h-[1.1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            LinkedIn
+                          </h3>
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            LinkedIn
+                          </h3>
+                        </a>
+                        <a
+                          target="_blank"
+                          href="https://github.com/Swaraj269"
+                          class="links cursor-pointer h-[1.1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Instagram
+                          </h3>
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Instagram
+                          </h3>
+                        </a>
+                        <a
+                          target="_blank"
+                          href="https://www.instagram.com/swarajsingh._/profilecard/?igsh=dzYxdHhiNzA5NG41"
+                          class="links cursor-pointer h-[1.1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Twitter
+                          </h3>
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Twitter
+                          </h3>
+                        </a>
+                        <a
+                          target="_blank"
+                          href="https://www.awwwards.com/swaraj-singh/"
+                          class="links cursor-pointer h-[1.1rem] md:h-[1.3rem] overflow-hidden"
+                        >
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Email Us
+                          </h3>
+                          <h3
+                            class="text-white text-[4.5vw] md:text-[1.5vw] leading-[1]"
+                          >
+                            Email Us
+                          </h3>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="contactlower relative flex items-end justify-center text-center h-[15%] md:h-[40%] w-full"
+                >
+                  <div
+                    class="love bg-[#242A23] border md:w-fit w-[65%] border-white absolute top-[90%] md:top-[100%] translate-y-[-50%] px-[1.8vw] py-[1vw] left-[50%] translate-x-[-50%]"
+                  >
+                    <h4
+                      class="text-white text-[3vw] md:text-[1.1vw] leading-[1.3] md:leading-[1]"
+                    >
+                      Ready to make your brand the one that wins? Let's talk. Built with 🫶 by
+                    </h4>
+                  </div>
+                  <h3 class="text-white leading-[0.5] text-[20vw]">
+                    Satya<span>prakash</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
